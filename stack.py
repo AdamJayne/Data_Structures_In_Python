@@ -15,7 +15,7 @@ class Stack:
         self.items = []
 
     def push(self, item):
-        """ Adds item to base of the stack """
+        """ Adds item to the top of the stack """
         self.items.append(item)
 
     def remove(self):
